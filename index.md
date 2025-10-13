@@ -7,10 +7,14 @@ permalink: /
 # 👋 About Me
 ---
 
-**Jili Chen（陈继力）**，博士生，教育技术专业研究生，浙江师范大学。  
-研究方向包括 **扩散模型**、**智能教育**、**情感计算**、**因果推断**、以及 **大语言模型**。  
+**<span style="color:#1E90FF;">Jili Chen（陈继力）</span>**，博士生，教育技术专业研究生，浙江师范大学。  
+研究方向包括 **<span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">扩散模型</span>**、  
+**<span style="background-color:#90EE90; color:#000; padding:2px 4px; border-radius:4px;">智能教育</span>**、  
+**<span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">情感计算</span>**、  
+**<span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">因果推断</span>**、以及  
+**<span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">大语言模型</span>**。
 
-迄今已发表 **8 篇论文**，拥有 **2 项国家发明专利**，并主持/参与 **5 项科研项目**。
+迄今已发表 **<span style="color:#FF8C00;">8 篇论文</span>**，拥有 **<span style="color:#32CD32;">2 项国家发明专利</span>**，并主持/参与 **<span style="color:#FF69B4;">5 项科研项目</span>**。
 
 - 📧 **Email:** [irelia@zjnu.edu.cn](mailto:irelia@zjnu.edu.cn)  
 - 💻 **GitHub:** [TheShy-Dream](https://github.com/TheShy-Dream)  
@@ -33,13 +37,13 @@ permalink: /
 ### 🎓 Zhejiang Normal University, M.S. Educational Technology
 **09.2022 – 06.2025**  
 **School:** School of Education  
-**Supervisors:** Associate Professor Huang Qionghao, Professor Huang Changqin  
-**Research Areas:** Intelligent Education, Affective Computing, Causal Inference, Large Language Models  
+**Supervisors:** Associate Professor **<span style="color:#1E90FF;">Huang Qionghao</span>**, Professor **<span style="color:#1E90FF;">Huang Changqin</span>**  
+**Research Areas:** <span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">Intelligent Education</span>, <span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">Affective Computing</span>, <span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">Causal Inference</span>, <span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">Large Language Models</span>  
 **Main Courses:** Intelligent Education, Educational Data Mining, Learning Analytics, Instructional Technology Design, AI-assisted Teaching, Personalized Learning Systems, Educational Assessment and Measurement
 
 ### 🎓 Zhejiang Normal University, Ph.D. Computer Science and Technology
 **09.2025 – Present**  
 **School:** School of Mathematics and Computer Science  
-**Supervisor:** Professor Huang Changqin  
-**Research Areas:** Diffusion Models, Affective Computing, Causal Inference, Intelligent Education, Large Language Models  
+**Supervisor:** Professor **<span style="color:#1E90FF;">Huang Changqin</span>**  
+**Research Areas:** <span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">Diffusion Models</span>, <span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">Affective Computing</span>, <span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">Causal Inference</span>, <span style="background-color:#90EE90; color:#000; padding:2px 4px; border-radius:4px;">Intelligent Education</span>, <span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">Large Language Models</span>  
 **Main Courses:** Intelligent Education, Educational Data Mining, Learning Analytics, Instructional Technology Design, AI-assisted Teaching, Personalized Learning Systems, Educational Assessment and Measurement
