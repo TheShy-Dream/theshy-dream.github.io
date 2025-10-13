@@ -8,11 +8,15 @@ permalink: /
 ---
 
 **<span style="color:#1E90FF;">Jili Chen（陈继力）</span>**，博士生，教育技术专业研究生，浙江师范大学。  
-研究方向包括 **<span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">扩散模型</span>**、  
-**<span style="background-color:#90EE90; color:#000; padding:2px 4px; border-radius:4px;">智能教育</span>**、  
-**<span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">情感计算</span>**、  
-**<span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">因果推断</span>**、以及  
-**<span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">大语言模型</span>**。
+研究方向包括 
+<div style="display: flex; gap: 8px; flex-wrap: nowrap;">
+  <span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">扩散模型</span>
+  <span style="background-color:#90EE90; color:#000; padding:2px 4px; border-radius:4px;">智能教育</span>
+  <span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">情感计算</span>
+  <span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">因果推断</span>
+  <span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">大语言模型</span>
+</div>
+
 
 迄今已发表 **<span style="color:#FF8C00;">8 篇论文</span>**，拥有 **<span style="color:#32CD32;">2 项国家发明专利</span>**，并主持/参与 **<span style="color:#FF69B4;">5 项科研项目</span>**。
 
