@@ -4,7 +4,7 @@ title: "Awards"
 permalink: /awards/
 ---
 
-# Competitions and Awards
+# 🏅 Competitions and Awards
 ---
 
 1. **Zhejiang Normal University School of Education 2023–2024 Talent Scholarship** ✨, June 2024  
