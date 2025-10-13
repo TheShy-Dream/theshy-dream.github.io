@@ -3,19 +3,26 @@ layout: page
 title: "Jili Chen"
 ---
 
-## About Me
+# About Me
+---
 
-I am a postgraduate student majoring in Educational Technology at Zhejiang Normal University, class of 2022.  
-My main research areas include diffusion models, intelligent education, affective computing, causal inference, large language models, and diffusion models.  
+Jili Chen（陈继力），博士生，教育技术专业研究生，浙江师范大学。  
+研究方向包括扩散模型、智能教育、情感计算、因果推断、以及大语言模型。  
 
-So far, I have published 8 papers, hold two national invention patents, and have presided over and participated in five projects.
+迄今已发表 8 篇论文，拥有 2 项国家发明专利，并主持/参与 5 项科研项目。
+
+- **Email:** [irelia@zjnu.edu.cn](mailto:irelia@zjnu.edu.cn)  
+- **GitHub:** [TheShy-Dream](https://github.com/TheShy-Dream)  
+- **ResearchGate:** [Jili Chen](https://www.researchgate.net/profile/Jili-Chen-3)  
+- **Personal Blog:** [ireliachen.top](http://ireliachen.top/)  
 
 ---
 
-## Education
+# Education
+---
 
 ### Yinzhou High School, Ningbo, Zhejiang
-High School, 09.2015 – 06.2018
+High School (09.2015 – 06.2018)
 
 ### Zhejiang Normal University, B.E. Computer Science and Technology (Normal)
 09.2018 – 06.2022  
@@ -35,4 +42,3 @@ High School, 09.2015 – 06.2018
 **Supervisor:** Professor Huang Changqin  
 **Research Areas:** Diffusion Models, Affective Computing, Causal Inference, Intelligent Education, Large Language Models  
 **Main Courses:** Intelligent Education, Educational Data Mining, Learning Analytics, Instructional Technology Design, AI-assisted Teaching, Personalized Learning Systems, Educational Assessment and Measurement
-
