@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: home
 title: "Jili Chen"
+permalink: /
 ---
 
 # About Me

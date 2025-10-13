@@ -22,8 +22,8 @@ plainwhite:
   portfolio_image_dark: "assets/portfolio_dark.png"
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   navigation:
-    - title: About Me
-      url: "/about/"
+    - title: Home
+      url: "/"
     - title: Publications
       url: "/publications/"
     - title: Projects
@@ -68,7 +68,6 @@ plainwhite:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - 'index.md'
- - 'markdown/Aboutme.md'
  - 'markdown/Awards.md'
  - 'markdown/Publications.md'
  - 'markdown/Projects.md'

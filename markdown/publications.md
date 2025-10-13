@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Patents"
-permalink: /patents/
+title: "Publications"
+permalink: /publications/
 ---
+
 
 # Publications
 ---
@@ -10,7 +11,7 @@ permalink: /patents/
 1. **Chen J**, Zhong Y, Huang Q, Huang C, Jiang F, Huang X, Wang X.  
    *UCMIB-PNS: Balancing Sufficiency and Necessity with Probabilistic Causality and Cross-Modal Uncertainty in Multimodal Sentiment Analysis*.  
    IEEE Transactions on Affective Computing.  
-   [PDF](../assets/UCMIB-PNS.pdf) | [DOI](https://ieeexplore.ieee.org/abstract/document/11153045)  
+   [pdf](../assets/UCMIB-PNS.pdf) | [Supplement](../assets/UCMIB-PNS-SUPPLEMENT.pdf) | [DOI](https://ieeexplore.ieee.org/abstract/document/11153045)
    **SCI, IF: 9.6, Q1 TOP, CCF-B**
 
 2. Huang C, **Chen J**, Huang Q*, Wang S, Tu Y, Huang X.  
