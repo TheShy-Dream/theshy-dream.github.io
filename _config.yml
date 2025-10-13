@@ -55,7 +55,12 @@ plainwhite:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
- - markdown/Aboutme.md
+ - 'index.md'
+ - 'markdown/Aboutme.md'
+ - 'markdown/Awards.md'
+ - 'markdown/Publications.md'
+ - 'markdown/Projects.md'
+ - 'markdown/Patents.md'
 
 # Build settings
 #theme: plainwhite
