@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Publications"
+title: "Patents"
+permalink: /patents/
 ---
 
 # Publications

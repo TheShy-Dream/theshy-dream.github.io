@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Jili Chen"
+title: "About Me"
+permalink: /about/
 ---
 
 # About Me

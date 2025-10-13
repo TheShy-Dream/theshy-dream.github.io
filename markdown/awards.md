@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Awards"
+permalink: /awards/
 ---
 
 # Competitions and Awards
