@@ -7,7 +7,7 @@ permalink: /
 # 👋 About Me
 ---
 
-<span style="color:#1E90FF; font-weight: bold;">Jili Chen（陈继力）</span>，博士生，教育技术专业研究生，浙江师范大学。
+<span style="color:#1E90FF; font-weight: bold;">Jili Chen（陈继力）</span>，博士生，计算机科学与技术专业研究生，浙江师范大学。
 <div style="margin-top: 4px; font-weight: bold;">
   研究方向包括：
   <span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">扩散模型</span>
