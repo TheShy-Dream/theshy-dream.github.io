@@ -7,10 +7,10 @@ permalink: /publications/
 # 📚 Publications
 ---
 
-1. **Chen J**, Huang C, Huang Q, Tu Y, Zheng Z, Huang X  
+1. **Chen J**, Huang C*, Huang Q, Tu Y, Zheng Z, Huang X  
    **Test-Time Reinforcement Learning for Flow Matching**  
    International Conference on Machine Learning (ICML), 2026  
-   🌐 [Project Page](../publications/flow-ttrl/)  
+   🌐 [Project Page](../flow-ttrl/)  
    <span style="background-color:#FF6347; color:#FFFFFF; padding:2px 5px; border-radius:4px;">CCF-A</span>
 
 2. Huang C, **Chen J**, Huang Q*, Wang S, Tu Y, Huang X  
