@@ -12,11 +12,11 @@ permalink: /flow-ttrl/
 
 ## 📖 Introduction
 
-![Introduction](../assets/Flow-TTRL/Introduction.png)
+![Introduction](../../assets/Flow-TTRL/Introduction.png)
 
 ## 🔧 Method
 
-![Architecture](../assets/Flow-TTRL/architecture.png)
+![Architecture](../../assets/Flow-TTRL/architecture.png)
 
 ## ⚙️ Requirements
 
@@ -85,14 +85,14 @@ To achieve better results for specific prompts or reward objectives, users can a
 
 ## 📊 Qualitative Results
 
-![GenEval Results](../assets/Flow-TTRL/qualitization_result_geneval.png)
+![GenEval Results](../../assets/Flow-TTRL/qualitization_result_geneval.png)
 
-![T2I-CompBench Results](../assets/Flow-TTRL/qualitization_result_t2ibench.png)
+![T2I-CompBench Results](../../assets/Flow-TTRL/qualitization_result_t2ibench.png)
 
-![Complex Prompts](../assets/Flow-TTRL/qualitization_result_complex.png)
+![Complex Prompts](../../assets/Flow-TTRL/qualitization_result_complex.png)
 
-![Participant Prompts](../assets/Flow-TTRL/qualitization_result_partiprompts.png)
+![Participant Prompts](../../assets/Flow-TTRL/qualitization_result_partiprompts.png)
 
-![DrawBench Results](../assets/Flow-TTRL/qualitization_result_drawbench.png)
+![DrawBench Results](../../assets/Flow-TTRL/qualitization_result_drawbench.png)
 
-![Pick-a-Pic Results](../assets/Flow-TTRL/qualitization_result_pickapic.png)
+![Pick-a-Pic Results](../../assets/Flow-TTRL/qualitization_result_pickapic.png)

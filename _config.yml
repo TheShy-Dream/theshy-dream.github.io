@@ -32,6 +32,8 @@ plainwhite:
       url: "/patents/"
     - title: Awards
       url: "/awards/"
+    - title: Flow-TTRL
+      url: "/publications/flow-ttrl/"
 
   condensed_mobile:
     - home
