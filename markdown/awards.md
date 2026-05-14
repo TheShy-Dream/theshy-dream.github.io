@@ -21,3 +21,6 @@ permalink: /awards/
 
 5. **Zhejiang Normal University 5th Graduate Top Ten Academic Stars** 🏅  
    <span style="color:#FF4500;">April 2025</span>
+
+6. **Zhejiang Normal University School of Education 2024–2025 Talent Scholarship** ✨  
+   <span style="color:#1E90FF;">June 2025</span>

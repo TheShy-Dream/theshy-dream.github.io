@@ -20,7 +20,9 @@ permalink: /publications/
    <span style="background-color:#90EE90; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 14.7, Q1 TOP, CAAI A</span>
 
 3. **Chen J**, Huang Q*, Huang C*, Huang X  
-   **Actual Cause Guided Adaptive Gradient Scaling for Balanced Multimodal Sentiment Analysis**  
+   **Actual Cause Guided Adaptive Gradient Scaling for Balanced Multimodal Sentiment Analysis**
+    ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2025, 21(6): 1-24
+
    🔗 [PDF](../assets/AGS-SMOE.pdf) | 🌐 [DOI](https://dl.acm.org/doi/10.1145/3736415)  
    <span style="background-color:#87CEEB; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 5.2, CCF-B</span>
 
@@ -52,5 +54,11 @@ permalink: /publications/
    Complex & Intelligent Systems, 2025, 11(4): 196  
    🔗 [PDF](../assets/H2CAN.pdf) | 🌐 [DOI](https://link.springer.com/content/pdf/10.1007/s40747-025-01806-y.pdf)  
    <span style="background-color:#AFEEEE; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 5.0, Q3</span>
+
+9. **Chen J**, Huang C, Huang Q, Tu Y, Zheng Z, Huang X  
+   **Test-Time Reinforcement Learning for Flow Matching**  
+   International Conference on Machine Learning (ICML), 2026  
+   🌐 [Project Page](../publications/flow-ttrl/)  
+   <span style="background-color:#FF6347; color:#FFFFFF; padding:2px 5px; border-radius:4px;">CCF-A</span>
 
 **Note:** * indicates corresponding author
