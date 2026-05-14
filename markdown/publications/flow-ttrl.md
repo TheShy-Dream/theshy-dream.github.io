@@ -4,7 +4,7 @@ title: "Flow-TTRL"
 permalink: /flow-ttrl/
 ---
 
-# Flow-TTRL: Test-Time Reinforcement Learning for Flow Matching
+# Test-Time Reinforcement Learning for Flow Matching
 
 📦 Code is available at [https://github.com/TheShy-Dream/Flow-TTRL](https://github.com/TheShy-Dream/Flow-TTRL)
 
