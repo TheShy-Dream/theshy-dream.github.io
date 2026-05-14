@@ -6,7 +6,9 @@ permalink: /flow-ttrl/
 
 # Flow-TTRL: Test-Time Reinforcement Learning for Flow Matching
 
-**Official implementation of the paper: "Flow-TTRL: Test-Time Reinforcement Learning for Flow Matching"**
+📦 Code is available at [https://github.com/TheShy-Dream/Flow-TTRL](https://github.com/TheShy-Dream/Flow-TTRL)
+
+📄 Paper coming soon.
 
 **Flow-TTRL** is an inference-time optimization framework designed to align flow-matching models with complex human preferences without the need for expensive fine-tuning. By leveraging RL-guided latent search, Flow-TTRL achieves highly competitive results on benchmarks like **GenEval** and **T2I-CompBench**, attaining performance comparable to proprietary models and established RL-based fine-tuning methods while consistently bolstering image fidelity and text-alignment.
 
