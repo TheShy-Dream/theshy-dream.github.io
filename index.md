@@ -18,7 +18,7 @@ permalink: /
 </div>
 
 
-迄今已发表 **<span style="color:#FF8C00;">9 篇论文</span>**，拥有 **<span style="color:#32CD32;">2 项国家发明专利</span>**，并主持/参与 **<span style="color:#FF69B4;">5 项科研项目</span>**。
+迄今已发表 **<span style="color:#FF8C00;">10 篇论文</span>**，拥有 **<span style="color:#32CD32;">2 项国家发明专利</span>**，并主持/参与 **<span style="color:#FF69B4;">5 项科研项目</span>**。
 
 - 📧 **Email:** [irelia@zjnu.edu.cn](mailto:irelia@zjnu.edu.cn)  
 - 💻 **GitHub:** [TheShy-Dream](https://github.com/TheShy-Dream)  

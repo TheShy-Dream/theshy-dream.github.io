@@ -13,7 +13,7 @@ permalink: /publications/
    🌐 [Project Page](../flow-ttrl/) | 🔗 [PDF](../assets/Flow-TTRL.pdf)  
    <span style="background-color:#FF6347; color:#FFFFFF; padding:2px 5px; border-radius:4px;">CCF-A</span>
 
-2. **Chen J**, Zeng H, Huang C, Huang Q, Li Z, Huang X  
+2. **Chen J**, Zeng H, Huang C*, Huang Q, Li Z*, Huang X  
    **Context-Aware Latent Space Mediation for Inference-Time Unbiased Semantic Alignment in Text-to-Image Models**  
    Expert Systems with Applications, 2026: 133019  
    🔗 [PDF](../assets/CALM.pdf) | 🌐 [DOI](https://doi.org/10.1016/j.eswa.2026.133019)  
