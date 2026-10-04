@@ -51,3 +51,14 @@ permalink: /
 **Supervisor:** Professor **<span style="color:#1E90FF;">Huang Changqin</span>**  
 **Research Areas:** <span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">Diffusion Models</span>, <span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">Affective Computing</span>, <span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">Causal Inference</span>, <span style="background-color:#90EE90; color:#000; padding:2px 4px; border-radius:4px;">Intelligent Education</span>, <span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">Large Language Models</span>  
 **Main Courses:** Intelligent Education, Educational Data Mining, Learning Analytics, Instructional Technology Design, AI-assisted Teaching, Personalized Learning Systems, Educational Assessment and Measurement
+
+---
+
+# 📑 Academic Service
+---
+
+I serve as a reviewer for the following international journals:
+
+- **SCIE journals:** *IEEE Transactions on Affective Computing* (2025–Present); *Information Fusion*, *Pattern Recognition*, *Expert Systems with Applications*, *Data Mining and Knowledge Discovery*, *IEEE Signal Processing Letters*, *Knowledge and Information Systems*, *The Visual Computer*, *International Journal of Machine Learning and Cybernetics*, *Pattern Analysis and Applications*, *Machine Vision and Applications*, *Multimedia Systems*, *Neural Processing Letters*, and *Signal, Image and Video Processing* (2026–Present).
+- **SSCI journal:** *Thinking Skills and Creativity* (2026–Present).
+- **Scopus/EI journals:** *Human-Centric Intelligent Systems*, *Natural Language Processing Journal*, and *Discover Artificial Intelligence* (2026–Present).
