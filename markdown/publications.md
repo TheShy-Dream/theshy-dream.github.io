@@ -23,7 +23,7 @@ permalink: /publications/
    **Context-Aware Latent Space Mediation for Inference-Time Unbiased Semantic Alignment in Text-to-Image Models**  
    Expert Systems with Applications, 2026: 133019  
    🔗 [PDF](../assets/CALM.pdf) | 🌐 [DOI](https://doi.org/10.1016/j.eswa.2026.133019)  
-   <span style="background-color:#B0C4DE; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 7.5, Q1, CCF-C</span>
+   <span style="background-color:#B0C4DE; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 7.5, Q1 TOP, CCF-C</span>
 
 4. **Chen J**, Zhong Y, Huang Q, Huang C, Jiang F, Huang X  
    **UCMIB-PNS: Balancing Sufficiency and Necessity with Probabilistic Causality and Cross-Modal Uncertainty in Multimodal Sentiment Analysis**  
