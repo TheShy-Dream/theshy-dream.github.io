@@ -16,7 +16,7 @@ permalink: /publications/
 2. **Chen J**, Tu Y, Huang Q, Wang X, Huang X, Huang C*  
    **SMART-Edit: Spectral Mutual Attention Refinement and Fusion for Precise Training-Free Image Editing**  
    Pattern Recognition, 2026: 115025  
-   🔗 [PDF](../assets/SMART-Edit.pdf) | 🌐 [DOI](https://doi.org/10.1016/j.patcog.2026.115025)  
+   🔗 [PDF](../assets/SMART-Edit.pdf) | 📄 [Supplement](../assets/SMART-Edit-SUPPLEMENT.pdf)  | 🌐 [DOI](https://doi.org/10.1016/j.patcog.2026.115025)  
    <span style="background-color:#9370DB; color:#FFFFFF; padding:2px 5px; border-radius:4px;">SCI, IF: 9.1, Q1 TOP, CCF-B</span>
 
 3. **Chen J**, Zeng H, Huang C*, Huang Q, Li Z*, Huang X  
@@ -61,10 +61,10 @@ permalink: /publications/
    <span style="background-color:#DDA0DD; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 3.5, Q3</span>
 
 10. Huang C*, Lin Z, Huang Q, Huang X, Jiang F*, **Chen J**  
-   **H2CAN: heterogeneous hypergraph attention network with counterfactual learning for multimodal sentiment analysis**  
-   Complex & Intelligent Systems, 2025, 11(4): 196  
-   🔗 [PDF](../assets/H2CAN.pdf) | 🌐 [DOI](https://link.springer.com/content/pdf/10.1007/s40747-025-01806-y.pdf)  
-   <span style="background-color:#AFEEEE; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 5.0, Q3</span>
+      **H2CAN: heterogeneous hypergraph attention network with counterfactual learning for multimodal sentiment analysis**  
+      Complex & Intelligent Systems, 2025, 11(4): 196  
+      🔗 [PDF](../assets/H2CAN.pdf) | 🌐 [DOI](https://link.springer.com/content/pdf/10.1007/s40747-025-01806-y.pdf)  
+      <span style="background-color:#AFEEEE; color:#000000; padding:2px 5px; border-radius:4px;">SCI, IF: 5.0, Q3</span>
 
 11. Huang Q*, **Chen J**  
     **xLSTM-FER: Enhancing Student Expression Recognition with Extended Vision Long Short-Term Memory Network**  
