@@ -2,23 +2,26 @@
 layout: page
 title: "Jili Chen"
 permalink: /
+lang: en
+alternate_url: /zh-cn/
+alternate_lang: zh-CN
 ---
 
 # 👋 About Me
 ---
 
-<span style="color:#1E90FF; font-weight: bold;">Jili Chen（陈继力）</span>，博士生，计算机科学与技术专业研究生，浙江师范大学。
+<span style="color:#1E90FF; font-weight: bold;">Jili Chen（陈继力）</span> is a Ph.D. student in Computer Science and Technology at Zhejiang Normal University.
 <div style="margin-top: 4px; font-weight: bold;">
-  研究方向包括：
-  <span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">扩散模型</span>
-  <span style="background-color:#90EE90; color:#000; padding:2px 4px; border-radius:4px;">智能教育</span>
-  <span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">情感计算</span>
-  <span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">因果推断</span>
-  <span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">大语言模型</span>
+  Research interests:
+  <span style="background-color:#FFD700; color:#000; padding:2px 4px; border-radius:4px;">Diffusion Models</span>
+  <span style="background-color:#90EE90; color:#000; padding:2px 4px; border-radius:4px;">Intelligent Education</span>
+  <span style="background-color:#FFB6C1; color:#000; padding:2px 4px; border-radius:4px;">Affective Computing</span>
+  <span style="background-color:#87CEEB; color:#000; padding:2px 4px; border-radius:4px;">Causal Inference</span>
+  <span style="background-color:#DDA0DD; color:#000; padding:2px 4px; border-radius:4px;">Large Language Models</span>
 </div>
 
 
-迄今已发表 **<span style="color:#FF8C00;">11 篇论文</span>**，拥有 **<span style="color:#32CD32;">2 项国家发明专利</span>**，并主持/参与 **<span style="color:#FF69B4;">5 项科研项目</span>**。
+To date, he has published **<span style="color:#FF8C00;">11 papers</span>**, holds **<span style="color:#32CD32;">2 national invention patents</span>**, and has led or participated in **<span style="color:#FF69B4;">5 research projects</span>**.
 
 - 📧 **Email:** [irelia@zjnu.edu.cn](mailto:irelia@zjnu.edu.cn)  
 - 💻 **GitHub:** [TheShy-Dream](https://github.com/TheShy-Dream)  

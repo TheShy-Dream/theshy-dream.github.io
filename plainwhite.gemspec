@@ -14,6 +14,9 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", ">= 3.7.3"
   spec.add_runtime_dependency "jekyll-seo-tag", ">= 2.1.0"
+  # Ruby 3.4+ no longer ships BigDecimal as a default gem. Liquid 4 still
+  # requires it while rendering Jekyll sites, so keep it explicit here.
+  spec.add_runtime_dependency "bigdecimal", ">= 3.1"
 
   spec.add_development_dependency "bundler", "> 1.16"
   spec.add_development_dependency "rake", "~> 12.0"
