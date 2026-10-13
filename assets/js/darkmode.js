@@ -1,47 +1,40 @@
-function toggleDarkMode() {
-    const DARK_CLASS = 'dark';
+(function () {
+    const storageKey = 'theme';
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
 
-    var body = document.querySelector("body");
-    if (body.classList.contains(DARK_CLASS)) {
-        setCookie('theme', 'light');
-        body.classList.remove(DARK_CLASS);
-    } else {
-        setCookie('theme', 'dark');
-        body.classList.add(DARK_CLASS);
+    function savedTheme() {
+        try { return localStorage.getItem(storageKey); } catch (error) { return null; }
     }
-}
 
-function getCookie(name) {
-    var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-    return v ? v[2] : null;
-}
-function setCookie(name, value, days) {
-    var d = new Date;
-    d.setTime(d.getTime() + 24*60*60*1000*days);
-    document.cookie = name + "=" + value + ";path=/;SameSite=strict;expires=" + d.toGMTString();
-}
-
-function deleteCookie(name) { setCookie(name, '', -1); }
-
-
-const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-var theme = getCookie('theme');
-if ( (theme === null && userPrefersDark) || theme === 'dark') {
-    var checkDarkDone = false;
-    function checkDark() {
-        if (!checkDarkDone) {
-            toggleDarkMode();
+    function applyTheme(theme, remember) {
+        const isDark = theme === 'dark';
+        document.body.classList.toggle('dark', isDark);
+        document.querySelectorAll('.dark-mode-toggle').forEach(function (toggle) {
+            toggle.checked = isDark;
+        });
+        if (remember) {
+            try { localStorage.setItem(storageKey, theme); } catch (error) { /* storage may be disabled */ }
         }
-        checkDarkDone = true;
-    };
+    }
 
-    function toggleSwitch() {
-        document.querySelectorAll('.dark-mode-toggle').forEach(ti => ti.checked = true);
-    };
+    function toggleDarkMode() {
+        applyTheme(document.body.classList.contains('dark') ? 'light' : 'dark', true);
+    }
 
-    // Attempt both requestAnimationFrame and DOMContentLoaded, whichever comes first.
-    if (window.requestAnimationFrame) window.requestAnimationFrame(checkDark);
-    window.addEventListener('DOMContentLoaded', checkDark);
+    window.toggleDarkMode = toggleDarkMode;
 
-    window.addEventListener('DOMContentLoaded', toggleSwitch);
-}
+    document.addEventListener('DOMContentLoaded', function () {
+        applyTheme(savedTheme() || (media.matches ? 'dark' : 'light'), false);
+        document.querySelectorAll('.dark-mode-toggle').forEach(function (toggle) {
+            toggle.addEventListener('change', function () {
+                applyTheme(toggle.checked ? 'dark' : 'light', true);
+            });
+        });
+    });
+
+    if (media.addEventListener) {
+        media.addEventListener('change', function (event) {
+            if (!savedTheme()) applyTheme(event.matches ? 'dark' : 'light', false);
+        });
+    }
+}());
