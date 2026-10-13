@@ -69,16 +69,29 @@ main {
   }
 
   .content {
+    // Allow long publication titles and links to shrink inside the flex layout.
+    // Without this, the flex item's intrinsic width can make mobile pages
+    // wider than the viewport and visually crop the right-hand side.
+    min-width: 0;
     @media screen and (min-width: $mobileW + 1) {
       max-width: calc(100% - #{$leftWidth});
       margin-left: $leftWidth;
       width: 100%;
+    }
+    @media screen and (max-width: $mobileW) {
+      width: 100%;
+      max-width: 100%;
+      overflow-wrap: anywhere;
     }
   }
   .about {
     display: flex;
     height: 100vh;
     padding-bottom: 15vh;
+    min-width: $leftWidth;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     @media screen and (max-width: $mobileW) {
       height: auto;
       padding: 5vh 30px;
@@ -89,11 +102,12 @@ main {
     @media screen and (min-width: $mobileW + 1) {
       position: fixed;
       max-width: 280px;
+      top: 0;
+      justify-content: flex-start;
+      overflow-y: auto;
+      padding-top: clamp(12px, 2vh, 24px);
+      padding-bottom: 24px;
     }
-    min-width: $leftWidth;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     h2 {
       font-size: 22px;
       margin-top: 25px;
