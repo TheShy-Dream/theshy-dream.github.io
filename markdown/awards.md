@@ -2,6 +2,9 @@
 layout: page
 title: "Awards"
 permalink: /awards/
+lang: en
+alternate_url: /zh-cn/awards/
+alternate_lang: zh-CN
 ---
 
 # 🏅 Competitions and Awards

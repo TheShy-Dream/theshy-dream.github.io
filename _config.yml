@@ -81,3 +81,8 @@ remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+# Local-only folders that must not be copied into or compiled with the site.
+exclude:
+  - ref_code_base
+  - google_scholar_crawler

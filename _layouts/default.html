@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.plainwhite.html_lang }}">
+<html lang="{{ page.lang | default: site.plainwhite.html_lang }}">
 
 <head>
   {%- include head.html -%}
@@ -12,6 +12,7 @@
 {%- endif -%}
 
 <body>
+  <a class="skip-link" href="#main-content">{% if page.lang == "zh-CN" %}跳至主要内容{% else %}Skip to main content{% endif %}</a>
   <main class="container">
     <section class="about">
       <div class="about-header {{condensed_class}}">
@@ -29,7 +30,7 @@
       </h2>
       </div>
       {%- if site.plainwhite.tagline -%}
-      <p class="tagline">{{ site.plainwhite.tagline }}</p>
+      <p class="tagline">{% if page.lang == "zh-CN" %}研究者 · 开发者 ·<br>博士生{% else %}{{ site.plainwhite.tagline }}{% endif %}</p>
       {%- endif -%}
       </div>
       {% capture footer %}
@@ -138,23 +139,42 @@
       {%- if site.plainwhite.navigation -%}
       <nav class="navigation about-footer {{condensed_class}}">
         <ul>
+          {% if page.lang == "zh-CN" %}
+          <li><a href="{{ "/zh-cn/" | relative_url }}">首页</a></li>
+          <li><a href="{{ "/zh-cn/publications/" | relative_url }}">论文</a></li>
+          <li><a href="{{ "/zh-cn/projects/" | relative_url }}">项目</a></li>
+          <li><a href="{{ "/zh-cn/patents/" | relative_url }}">专利</a></li>
+          <li><a href="{{ "/zh-cn/awards/" | relative_url }}">荣誉</a></li>
+          {% else %}
           {% for link in site.plainwhite.navigation %}
           <li>
-            <a href="{{ link.url }}">{{ link.title }}</a>
+            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
           </li>
           {% endfor %}
+          {% endif %}
         </ul>
       </nav>
       {%- endif -%}
+      {%- if page.alternate_url -%}
+      <a class="language-switch about-footer {{condensed_class}}" href="{{ page.alternate_url | relative_url }}" hreflang="{{ page.alternate_lang }}" lang="{{ page.alternate_lang }}">
+        <span aria-hidden="true">文</span>
+        {% if page.lang == "zh-CN" %}English{% else %}中文{% endif %}
+      </a>
+      {%- endif -%}
+      <a class="scholar-summary about-footer {{condensed_class}}" href="https://scholar.google.com/citations?user=et0_rK4AAAAJ" target="_blank" rel="noopener noreferrer">
+        <span aria-hidden="true">GS</span>
+        <span>{% if page.lang == "zh-CN" %}Google 学术{% else %}Google Scholar{% endif %}</span>
+        <span class="scholar-summary__count" data-scholar-total hidden></span>
+      </a>
       <p class="about-footer {{condensed_class}}">&copy;
         {{ "now" | date: "%Y" }}</p>
       {%- if site.plainwhite.dark_mode -%}
       <div class="about-footer {{condensed_class}}">
-        <p>Dark Mode
+        <p>{% if page.lang == "zh-CN" %}深色模式{% else %}Dark Mode{% endif %}
           <i class="icon-moon"></i>
           <label class="switch">
-            <input type="checkbox" class="dark-mode-toggle">
-            <span class="slider round" onclick="toggleDarkMode()"></span>
+            <input type="checkbox" class="dark-mode-toggle" aria-label="{% if page.lang == "zh-CN" %}切换深色模式{% else %}Toggle dark mode{% endif %}">
+            <span class="slider round" aria-hidden="true"></span>
           </label>
         </p>
       </div>
@@ -162,16 +182,15 @@
       {% endcapture %}
       {{ footer }}
     </section>
-    <section class="content">
+    <section class="content" id="main-content" tabindex="-1">
       {{ content }}
     </section>
     <footer class="{{condensed_class}}">
       {{ footer }}
     </footer>
   </main>
-  {% if site.plainwhite.dark_mode %}
-  <script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
-  {% endif %}
+  <script type="text/javascript" src="{{ "/assets/js/site-enhancements.js" | relative_url }}"></script>
+  <script defer src="{{ "/assets/js/scholar-citations.js" | relative_url }}"></script>
 
   {%- if site.plainwhite.analytics_id -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>

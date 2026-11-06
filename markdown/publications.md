@@ -2,6 +2,9 @@
 layout: page
 title: "Publications"
 permalink: /publications/
+lang: en
+alternate_url: /zh-cn/publications/
+alternate_lang: zh-CN
 ---
 
 # 📚 Publications

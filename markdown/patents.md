@@ -2,6 +2,9 @@
 layout: page
 title: "Patents"
 permalink: /patents/
+lang: en
+alternate_url: /zh-cn/patents/
+alternate_lang: zh-CN
 ---
 
 # 📝 Patents
